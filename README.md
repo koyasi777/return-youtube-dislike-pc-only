@@ -1,36 +1,77 @@
-# Return YouTube Dislike (PC Only Mod)
+# Return YouTube Dislike (PC Only)
 
-## Overview
+## 🧭 Overview
 
-This is a **PC-focused fork** of the original [Return YouTube Dislike userscript](https://github.com/Anarios/return-youtube-dislike/blob/main/Extensions/UserScript/Return%20Youtube%20Dislike.user.js), rebuilt with enhanced reliability, UI features, and modern JavaScript architecture.
+This is a **desktop-focused fork** of the original [Return YouTube Dislike userscript](https://github.com/Anarios/return-youtube-dislike/blob/main/Extensions/UserScript/Return%20Youtube%20Dislike.user.js), rebuilt with a class-based architecture, enhanced UI elements, and greater reliability for Single Page Application (SPA) navigation on YouTube.
 
-Unlike the original script (v3.1.5), this version introduces a fully **class-based design**, eliminates global state leakage, and implements several critical improvements for performance, maintainability, and UX.
-
----
-
-## Key Enhancements
-
-- ✅ **Shorts support**: Dislike data is preserved and rendered correctly even after single-page-app (SPA) navigation in Shorts.
-- ✅ **Visual rating bar**: Like/dislike ratio is displayed visually under the buttons for standard videos.
-- ✅ **Hover tooltip**: On mouse hover, shows the precise like/dislike count for transparency.
-- ✅ **Object-oriented structure**: All logic is encapsulated in a `ReturnYouTubeDislike` class with internal state and cleanup support.
-- ✅ **Robust initialization**: Uses polling with timeout and `MutationObserver` on `<title>` for consistent SPA detection (more reliable than `yt-navigate-finish`).
-- ✅ **DOM caching**: Elements are queried once and cached to improve performance during rapid events.
-- ✅ **Future-proof CSS**: Avoids direct dependency on brittle YouTube CSS classes by injecting isolated styles.
+Unlike the original script, this version is designed **only for PC** environments, and adds several modern features to improve usability and maintainability.
 
 ---
 
-## Why a Fork?
+## ✨ Key Features
 
-The original script works well, but:
-- It relies heavily on global variables and procedural logic, which limits extensibility.
-- It lacks reliable detection for SPA transitions in Shorts.
-- It doesn't offer a visual representation of like/dislike ratio, which many users find valuable.
-
-This fork addresses those issues by rewriting the internals using modern JavaScript best practices and providing a more user-friendly interface for desktop users.
+- ✅ Supports **Shorts SPA navigation** — dislikes remain visible after switching videos.
+- ✅ Displays a **like/dislike ratio bar** under the buttons (desktop only).
+- ✅ **Hover tooltip** shows accurate like/dislike counts.
+- ✅ Fully **object-oriented** codebase (ES6 class).
+- ✅ **MutationObserver + timeout-based** initialization — more robust than relying on `yt-navigate-finish`.
+- ✅ **DOM element caching** for performance and efficiency.
+- ✅ Custom CSS styling — avoids breaking due to YouTube class name changes.
 
 ---
 
-## License
+## 🚀 Installation Guide
 
-This project is released under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.html) (AGPL-3.0), in full compliance with the license of the upstream repository.
+1. Install a userscript manager:
+   - [Violentmonkey](https://violentmonkey.github.io/)
+   - [Tampermonkey for Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)
+   - [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+
+2. Install the userscript:  
+   👉 **[Click here to install](https://koyasi777.github.io/return-youtube-dislike-pc-only/return-youtube-dislike-pc-only.user.js)**
+
+3. Visit YouTube (`https://www.youtube.com/`) and open any video — the enhanced dislike interface will activate automatically.
+
+> 💡 This script is tailored for desktop YouTube only. It excludes `music.youtube.com` and mobile UIs by design.
+
+---
+
+## 🔄 Why This Fork?
+
+The original userscript is great, but this version introduces key improvements:
+
+| Feature                        | Original v3.1.5                | This Version (v4.0.7)                        |
+|--------------------------------|--------------------------------|---------------------------------------------|
+| Architecture                  | Procedural, global variables   | ES6 class-based, encapsulated state         |
+| SPA Navigation (Shorts)       | Relies on `yt-navigate-finish` | Uses `<title>` mutation + timeout fallback  |
+| Rating Display                | Text-only                      | Visual ratio bar with hover tooltip         |
+| DOM Handling                  | Repeated queries               | Cached DOM elements                         |
+| Asynchronous Code             | `fetch().then()`               | `async/await` with GM.xmlHttpRequest wrapper|
+| CSS Styling                   | Tied to YouTube classes        | Fully isolated and scoped CSS               |
+| State Reliability             | Tracks previousState manually  | Checks actual DOM state per event           |
+
+---
+
+## 📄 License
+
+This project is licensed under the **GNU Affero General Public License v3.0** (AGPL-3.0), in accordance with the upstream repository.
+
+- [License text](https://www.gnu.org/licenses/agpl-3.0.html)
+- You are free to use, modify, and distribute under the terms of this license.
+
+---
+
+## 🤝 Attribution
+
+- Original Authors: [Anarios](https://github.com/Anarios), [JRWR](https://github.com/JRWR)
+- Modified and maintained by: [koyasi777](https://github.com/koyasi777)
+
+---
+
+## 📬 Issues / Contributions
+
+Pull requests and issues are welcome!  
+Please feel free to report bugs, request features, or fork this further.
+
+👉 [Open an issue](https://github.com/koyasi777/return-youtube-dislike-pc-only/issues)
+
