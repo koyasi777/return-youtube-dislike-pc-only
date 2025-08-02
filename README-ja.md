@@ -30,9 +30,7 @@
 2. ユーザースクリプトをインストール：  
    👉 **[こちらをクリックしてインストール](https://raw.githubusercontent.com/koyasi777/return-youtube-dislike-pc-only/main/return-youtube-dislike-pc-only.user.js)**
 
-3. YouTube（`https://www.youtube.com/`）を開いて任意の動画を再生すれば、拡張された低評価表示機能が自動で有効になります。
-
-> 💡 本スクリプトはPC向けYouTube専用です。`music.youtube.com` やモバイル版UIはあえて対象外にしています。
+3. YouTubeを開いて任意の動画を再生すれば、拡張された低評価表示機能が自動で有効になります。
 
 ---
 
