@@ -28,7 +28,7 @@ Unlike the original script, this version is designed **only for PC** environment
    - [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
 2. Install the userscript:  
-   👉 **[Click here to install](https://koyasi777.github.io/return-youtube-dislike-pc-only/return-youtube-dislike-pc-only.user.js)**
+   👉 **[Click here to install](https://raw.githubusercontent.com/koyasi777/return-youtube-dislike-pc-only/main/return-youtube-dislike-pc-only.user.js)**
 
 3. Visit YouTube (`https://www.youtube.com/`) and open any video — the enhanced dislike interface will activate automatically.
 
