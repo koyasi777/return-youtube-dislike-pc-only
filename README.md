@@ -30,9 +30,7 @@ Unlike the original script, this version is designed **only for PC** environment
 2. Install the userscript:  
    👉 **[Click here to install](https://raw.githubusercontent.com/koyasi777/return-youtube-dislike-pc-only/main/return-youtube-dislike-pc-only.user.js)**
 
-3. Visit YouTube (`https://www.youtube.com/`) and open any video — the enhanced dislike interface will activate automatically.
-
-> 💡 This script is tailored for desktop YouTube only. It excludes `music.youtube.com` and mobile UIs by design.
+3. Visit YouTube and open any video — the enhanced dislike interface will activate automatically.
 
 ---
 
