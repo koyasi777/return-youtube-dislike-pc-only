@@ -1,4 +1,4 @@
-# Return YouTube Dislike（PC専用版）
+# Return YouTube Dislike（PC専用強化版）
 
 ## 🧭 概要
 
