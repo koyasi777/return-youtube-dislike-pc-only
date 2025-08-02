@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a **PC-focused fork** of the original [Return YouTube Dislike userscript](https://github.com/Anarios/return-youtube-dislike), rebuilt with enhanced reliability, UI features, and modern JavaScript architecture.
+This is a **PC-focused fork** of the original [Return YouTube Dislike userscript](https://github.com/Anarios/return-youtube-dislike/blob/main/Extensions/UserScript/Return%20Youtube%20Dislike.user.js), rebuilt with enhanced reliability, UI features, and modern JavaScript architecture.
 
 Unlike the original script (v3.1.5), this version introduces a fully **class-based design**, eliminates global state leakage, and implements several critical improvements for performance, maintainability, and UX.
 
