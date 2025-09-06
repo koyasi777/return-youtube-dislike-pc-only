@@ -19,8 +19,8 @@
 // @compatible   opera
 // @compatible   safari
 // @compatible   edge
-// @downloadURL  https://koyasi777.github.io/return-youtube-dislike-pc-only/return-youtube-dislike-pc-only.user.js
-// @updateURL    https://koyasi777.github.io/return-youtube-dislike-pc-only/return-youtube-dislike-pc-only.user.js
+// @downloadURL  https://github.com/koyasi777/return-youtube-dislike-pc-only/raw/refs/heads/main/return-youtube-dislike-pc-only.user.js
+// @updateURL    https://github.com/koyasi777/return-youtube-dislike-pc-only/raw/refs/heads/main/return-youtube-dislike-pc-only.user.js
 // @grant        GM.xmlHttpRequest
 // @grant        GM_addStyle
 // @connect      youtube.com
